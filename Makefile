@@ -198,7 +198,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 #ARCH		?= arm
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 ARCH		?= arm
-CROSS_COMPILE	?=
+CROSS_COMPILE	?= /home/guneetatwal/android/kernel/toolchains/linaro-4.8.3/bin/arm-cortex_a7-linux-gnueabihf-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
